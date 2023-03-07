@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: rgb(105, 13, 82);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  background-image: url(confetti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tabla {
+  margin-top: 20px;
+}
+.kartica {
+  width: 400px;
+  height: 120px;
+  background-color: whitesmoke;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: rgb(105, 13, 82);
+}
+.dugmad {
+  text-align: center;
+  padding-top: 5px;
+}
+button {
+  width: 120px;
+  height: 50px;
+  margin: 0 3px;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  color: rgb(105, 13, 82);
+}
+input {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2px 6px;
+  margin: 4px;
+}
+label {
+  font-size: 12px;
+  padding: 2px 6px;
+}
+.divPitanja {
+  text-align: left;
+  padding: 5px;
+}
+span {
+  margin: 5px;
+}
